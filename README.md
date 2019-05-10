@@ -26,6 +26,9 @@ Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)
   * This is not a SQL database.  It does not have a relational data model, it does not support SQL queries, and it has no support for indexes.
   * Only a single process (possibly multi-threaded) can access a particular database at a time.
   * There is no client-server support builtin to the library.  An application that needs such support will have to wrap their own server around the library.
+  这不是一个SOL数据库。它没有关系数据模型，不支持soL查询，也不支持索引
+  *每次只有一个进程(可能是多线程的)可以访问特定的数据库。
+  *该库不支持客户机-服务器内置。需要这种支持的应用程序必须将自己的服务封装在库中。
 
 # Building
 
